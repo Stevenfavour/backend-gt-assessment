@@ -45,6 +45,5 @@
 * Database: Replace the in‑memory Map with a real database (DynamoDB). This would give durability, scaling across multiple instances and enable read-replica.
 * Dockerization: Write a Dockerfile and a docker-compose.yml for reproducible local development and easy deployment to cloud platforms.
 
-*  CI/CD pipeline: Set up GitHub Actions to run linting (if later added), tests, and automatically build/push a container image and deployment to clouder server or kubernetes.
+*  CI/CD pipeline: Set up GitHub Actions to run linting (if later added), tests, and automatically build/push a container image and deployment to clouder server or kubernetes pod.
 
-AI Tools used: Claude AI
